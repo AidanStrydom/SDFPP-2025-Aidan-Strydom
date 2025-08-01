@@ -5,10 +5,13 @@ body {
 .background {
     background-color: #7c7c7c;
     padding: 5% 20% 5% 20%;
+
     /* max-width: 800px; */
 
     /* gap: 20px; */
 }
+
+
 
 .profile-img {
     width: 250px;
@@ -113,6 +116,10 @@ body {
 
 }
 
+span {
+    font-weight: 600;
+}
+
 .projects{
     background-color: #FFFFFF;
     padding: 24px 24px 24px 24px;
@@ -121,6 +128,16 @@ body {
 }
 
 .projects-container {
+    display: flex;
+    gap: 20px;
+}
+
+.top-container {
+    display: flex;
+    gap: 20px;
+}
+
+.bottom-container {
     display: flex;
     gap: 20px;
 }
@@ -217,6 +234,12 @@ body {
     margin-bottom: 20px;
 }
 
+.tools-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .languages {
     background-color: #e8f4ec;
     padding: 24px 24px 24px 24px;
@@ -235,6 +258,7 @@ body {
     background-color: #e8f4ec;
     padding: 24px 24px 24px 24px;
     border-radius: 12px;
+    margin-bottom: 20px;
 }
 
 .heart-icon {
@@ -306,9 +330,54 @@ body {
 
 .footer { 
     background-color: #d8643c;
-    display: flex;
     padding: 24px 24px 24px 24px;
     border-radius: 12px;
     box-shadow: 0 2px 2px #DADADA;
+}
 
+.footer-info {
+    display: flex;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1600px) {
+    .background {
+        padding: 5% 10% 5% 10%
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .background {
+        padding: 5% 2% 5% 2%
+    }
+    .projects-container {
+        gap: 5px;
+    }
+    .top-container {
+        gap: 5px;
+    }
+    .bottom-container {
+        gap: 5px;
+    }
+}
+
+
+@media screen and (max-width: 680px) {
+
+    .projects-container {
+        flex-direction: column;
+    }
+    .proficiency-skills {
+        flex-direction: column;
+    }
+    .edu-tools {
+        flex-direction: column;
+    }
+    .tools-container {
+        flex-direction: row;
+    }
 }
