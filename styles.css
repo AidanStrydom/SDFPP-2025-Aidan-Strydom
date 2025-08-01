@@ -8,6 +8,7 @@
     width: 144px;
     height: 144px;
     border-radius: 24px;
+    
 }
 
 .intro {
@@ -20,6 +21,7 @@
     background-color: #FFFFFF;
     padding: 24px 24px 24px 24px;
     border-radius: 12px;
+    margin-bottom: 20px;
     
 }
 
@@ -38,8 +40,87 @@
     max-width: 520px;
 }
 
+.proficiency-skills {
+    display: flex;
+    gap: 20px;
+}
+
 .proficiency {
     background-color: #FFFFFF;
     padding: 20px 20px 20px 20px;
     border-radius: 12px;
+    /* gap: 10px; */
+    margin-bottom: 20px;
+}
+
+.levels {
+    display: flex;
+    gap: 50px;
+}
+
+.loading-bar-container {
+  width: 100%;
+  max-width: 400px;
+  background-color: #eee;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  height: 6px;
+  overflow: hidden;
+}
+
+.loading-bar {
+  height: 100%;
+  background-color: #396B5E;
+}
+
+.bar-70  { width: 70%; }
+.bar-60  { width: 60%; }
+.bar-15  { width: 15%; }
+.bar-5  { width: 5%; }
+
+.skills {
+    /* display:flex; */
+    /* flex-wrap: wrap; */
+    background-color: #FFFFFF;
+}
+
+.skills-tags {
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: #ECF4F1; */
+    /* padding: 8px 14px 8px 14px; */
+    /* border-radius: 6px; */
+    gap: 20px;
+}
+
+.skills-tags p {
+    background-color: #ECF4F1;
+    padding: 8px 14px 8px 14px;
+    border-radius: 6px;
+
+}
+
+.projects{
+    background-color: #FFFFFF;
+}
+
+.projects-container {
+    display: flex;
+}
+
+.education {
+    background-color: #FFFFFF;
+}
+
+.tools {
+    background-color: #FFFFFF;
+
+}
+
+.experience {
+    background-color: #FFFFFF;
+}
+
+footer {
+    background-color: #d8643c;
 }
