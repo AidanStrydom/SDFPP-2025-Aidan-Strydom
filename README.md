@@ -119,3 +119,6 @@ Take your time. Follow the walkthrough. Ask for help if you need it.
 You're not just building a resume site — you're building confidence, skills, and a real piece of your future portfolio.
 
 **You’ve got this. Let’s go! 🚀**
+
+http://loom.com/share/a1ccad77d418477b8239a30164c8646c
+
